@@ -1,0 +1,73 @@
+# ==========================================
+# ΩHHM PROJESİ .gitignore DOSYASI
+# ==========================================
+
+# 1. PYTHON (Karar Motoru & MILP İşlemleri)
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+
+# 2. C/C++ ve EDGE CİHAZLARI
+# ------------------------------------------
+*.o
+*.obj
+*.exe
+*.bin
+*.hex
+*.elf
+*.a
+*.lib
+*.out
+.pio/
+.vscode/
+
+# 3. DONANIM VE SİMÜLASYON (Proteus/Altium)
+# ------------------------------------------
+*.PWI
+*.DBK
+*.snk
+Backup*/
+History/
+__Previews/
+*.PrjPCBStructure
+
+# 4. EXCEL VE VERİTABANI GEÇİCİ DOSYALARI
+# ------------------------------------------
+~$*.xlsx
+~$*.xls
+~$*.csv
+*.db
+*.sqlite3
+
+# 5. İŞLETİM SİSTEMİ ÇÖP DOSYALARI
+# ------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
